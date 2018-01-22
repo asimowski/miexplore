@@ -26,8 +26,8 @@ var User = require("./models/user");
 var seedDB = require("./seeds");
 
 mongoose.Promise = global.Promise;
-//mongoose.connect("mongodb://localhost/micamp", {useMongoClient: true});
-mongoose.connect("mongodb://miexplore:adrienne@ds111618.mlab.com:11618/miexplore", {useMongoClient: true});
+mongoose.connect(process.env.DBURL, {useMongoClient: true});
+//mongoose.connect("mongodb://miexplore:adrienne@ds111618.mlab.com:11618/miexplore", {useMongoClient: true});
 
 
 //Passport setup
