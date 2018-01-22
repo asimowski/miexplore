@@ -1,0 +1,22 @@
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.deleteForm {
+    display: inline;
+}
+
+.login-form {
+    width: 30%;
+    margin: 25px auto;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
